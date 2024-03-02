@@ -1,5 +1,5 @@
 # RL-based-PMPC
-## Case study codes of the paper ``Adaptive Parameterized Model Predictive Control Based on Reinforcement Learning: A Synthesis Framework"
+## Case study codes of the paper "Adaptive Parameterized Model Predictive Control Based on Reinforcement Learning: A Synthesis Framework"
 
 There are 6 controllers for comparison, each of which corresponds to a .m file:
 
