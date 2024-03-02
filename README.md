@@ -10,4 +10,4 @@ Standalone PMPC controller --> PMPC_RM_VSL.m
 Standalone RL controller --> Ramp_metering_learning.m  
 RL-PMPC controller --> PMPC_DQN_RM.m  
 
-Note that Ramp_metering_learning.m and PMPC_DQN_RM.m are the files to start the learning process. After the learning is finished, one implement the learnt agent to validate its control performance.
+Note that Ramp_metering_learning.m and PMPC_DQN_RM.m are the files to start the learning process. After the learning is finished, one implement the learnt agent to validate its control performance. To validate the RL-based controller, run the DQN_RM_validate.m file; to validate the RL-PMPC controller, run the DQN_PMPC_validate.m file. Please make sure that the corresponding agent is loaded before validating.
