@@ -10,3 +10,4 @@ Standalone PMPC controller --> PMPC_RM_VSL.m
 Standalone RL controller --> Ramp_metering_learning.m  
 RL-PMPC controller --> PMPC_DQN_RM.m  
 
+Note that Ramp_metering_learning.m and PMPC_DQN_RM.m are the files to start the learning process. After the learning is finished, one implement the learnt agent to validate its control performance.
