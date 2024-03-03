@@ -12,4 +12,4 @@ RL-PMPC controller --> PMPC_DQN_RM.m
 
 Note that Ramp_metering_learning.m and PMPC_DQN_RM.m are the files to start the learning process. After the learning is finished, one implement the learnt agent to validate its control performance. To validate the RL-based controller, run the DQN_RM_validate.m file; to validate the RL-PMPC controller, run the DQN_PMPC_validate.m file. Please make sure that the corresponding agent is loaded before validating.
 
-Also notice that set the correct weather scenarios before simulating, which can be modified in each file separately.
+Also notice that set the correct weather scenarios before simulating, which can be specified in each file separately.
